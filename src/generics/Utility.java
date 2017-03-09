@@ -52,11 +52,7 @@ public class Utility{
 	}
 	
 	
-//	URL=http://opensource.demo.orangehrmlive.com/
-//		IMPLICIT=20
-//		EXPLICIT=10
-//		UN=admin
-//		PW=admin
+
 	public static void getFileToUpload(String FilePath){
 		Robot robot;
 		try {
