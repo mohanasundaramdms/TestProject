@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
 
-import generics.Utility;
-
 public abstract class HomePage extends BasePage{
 
 	@FindBy(xpath="//a[@id='welcome']")

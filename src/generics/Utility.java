@@ -18,9 +18,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Properties;
 import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
-
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
@@ -51,7 +48,7 @@ public class Utility{
 		return simpleDate.format(new Date());
 	}
 	
-	
+	//This is commant line
 
 	public static void getFileToUpload(String FilePath){
 		Robot robot;
