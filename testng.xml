@@ -1,0 +1,15 @@
+<suite name="OrangeSuite" parallel="none">
+  <test name="TestFirefox">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hrm.scripts.EmployeeTerminationListTest"/>
+      <class name="com.hrm.scripts.CreateDeleteMultipleEmployee"/>
+      <class name="com.hrm.scripts.LanguageAndFontHelpTest"/>
+      <class name="com.hrm.scripts.EmpAddDelete"/>
+      <class name="com.hrm.scripts.LoginLogoutTest"/>
+      <class name="com.hrm.scripts.JobTitleSortDuplicateTest"/>
+      <class name="com.hrm.scripts.SearchButtonVisibleTest"/>
+    </classes>
+  </test>
+</suite>
+

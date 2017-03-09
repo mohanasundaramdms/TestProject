@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  TestFirefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestFirefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 01 13:04:30 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>289 seconds (289349 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hrm.scripts.EmployeeTerminationListTest.employeeTerminationList()'><b>employeeTerminationList</b><br>Test class: com.hrm.scripts.EmployeeTerminationListTest</td>
+<td><div><pre>java.lang.AssertionError: ListBox is not sorted expected [true] but found [false]
+	at com.hrm.base.BasePage.verifyListBoxIsSorted(BasePage.java:52)
+	at com.hrm.pages.EmpInfoPage.verifyEmployeeTerminationIsSorted(EmpInfoPage.java:61)
+	at com.hrm.scripts.EmployeeTerminationListTest.employeeTerminationList(EmployeeTerminationListTest.java:17)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24214583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24214583'><pre>java.lang.AssertionError: ListBox is not sorted expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.hrm.base.BasePage.verifyListBoxIsSorted(BasePage.java:52)
+	at com.hrm.pages.EmpInfoPage.verifyEmployeeTerminationIsSorted(EmpInfoPage.java:61)
+	at com.hrm.scripts.EmployeeTerminationListTest.employeeTerminationList(EmployeeTerminationListTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>2</td>
+<td>com.hrm.scripts.EmployeeTerminationListTest@10ab905</td></tr>
+<tr>
+<td title='com.hrm.scripts.CreateDeleteMultipleEmployee.testEmpAddDelete()'><b>testEmpAddDelete</b><br>Test class: com.hrm.scripts.CreateDeleteMultipleEmployee</td>
+<td><div><pre>java.lang.AssertionError: null
+	at generics.Utility.verifyElementIsPresent(Utility.java:230)
+	at com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:31)
+	at com.hrm.pages.EmpInfoPage.allRecordDeleteConfirmation(EmpInfoPage.java:102)
+	at com.hrm.scripts.CreateDeleteMultipleEmployee.testEmpAddDelete(CreateDeleteMultipleEmployee.java:43)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace12588598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace12588598'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at generics.Utility.verifyElementIsPresent(Utility.java:230)
+	at com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:31)
+	at com.hrm.pages.EmpInfoPage.allRecordDeleteConfirmation(EmpInfoPage.java:102)
+	at com.hrm.scripts.CreateDeleteMultipleEmployee.testEmpAddDelete(CreateDeleteMultipleEmployee.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>48</td>
+<td>com.hrm.scripts.CreateDeleteMultipleEmployee@ac3a89</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hrm.scripts.JobTitleSortDuplicateTest.jobTitleSort()'><b>jobTitleSort</b><br>Test class: com.hrm.scripts.JobTitleSortDuplicateTest</td>
+<td></td>
+<td>3</td>
+<td>com.hrm.scripts.JobTitleSortDuplicateTest@1494225</td></tr>
+<tr>
+<td title='com.hrm.scripts.LanguageAndFontHelpTest.languageAndFontHelpTest()'><b>languageAndFontHelpTest</b><br>Test class: com.hrm.scripts.LanguageAndFontHelpTest<br/>
+<a href="#Output-25191122" onClick='toggleBox("Output-25191122", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25191122" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25191122">
+Trying to click config menu<br/>
+Config menu clicked<br/>
+Trying to click localization menu<br/>
+Localization menu clicked<br/>
+Closing child browser<br/>
+Child browser closed<br/>
+Current URL not found or window closed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.hrm.scripts.LanguageAndFontHelpTest@1c20538</td></tr>
+<tr>
+<td title='com.hrm.scripts.SearchButtonVisibleTest.searchButtonVisible()'><b>searchButtonVisible</b><br>Test class: com.hrm.scripts.SearchButtonVisibleTest</td>
+<td></td>
+<td>3</td>
+<td>com.hrm.scripts.SearchButtonVisibleTest@1567f1</td></tr>
+<tr>
+<td title='com.hrm.scripts.LoginLogoutTest.testAutoLoginLogout()'><b>testAutoLoginLogout</b><br>Test class: com.hrm.scripts.LoginLogoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.hrm.scripts.LoginLogoutTest@6451e</td></tr>
+<tr>
+<td title='com.hrm.scripts.EmpAddDelete.testEmpAddDelete()'><b>testEmpAddDelete</b><br>Test class: com.hrm.scripts.EmpAddDelete</td>
+<td></td>
+<td>28</td>
+<td>com.hrm.scripts.EmpAddDelete@d818d1</td></tr>
+</table><p>
+</body>
+</html>

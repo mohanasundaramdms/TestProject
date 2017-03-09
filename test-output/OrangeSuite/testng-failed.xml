@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeSuite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="TestFirefox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hrm.scripts.SearchButtonVisibleTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.SearchButtonVisibleTest -->
+      <class name="com.hrm.scripts.LanguageAndFontHelpTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.LanguageAndFontHelpTest -->
+      <class name="com.hrm.scripts.CreateDeleteMultipleEmployee">
+        <methods>
+          <include name="testEmpAddDelete"/>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.CreateDeleteMultipleEmployee -->
+      <class name="com.hrm.scripts.EmpAddDelete">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.EmpAddDelete -->
+      <class name="com.hrm.scripts.JobTitleSortDuplicateTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.JobTitleSortDuplicateTest -->
+      <class name="com.hrm.scripts.LoginLogoutTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.LoginLogoutTest -->
+      <class name="com.hrm.scripts.EmployeeTerminationListTest">
+        <methods>
+          <include name="initReport"/>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="employeeTerminationList"/>
+          <include name="publishReport"/>
+          <include name="preCondition"/>
+          <include name="initGlobalVar"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.EmployeeTerminationListTest -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [OrangeSuite] -->
