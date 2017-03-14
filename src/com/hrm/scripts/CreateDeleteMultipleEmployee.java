@@ -23,13 +23,13 @@ public class CreateDeleteMultipleEmployee extends BaseTest
 		AddEmployeePage aePage = new AddEmployeePage(driver);
 		
 		int x = Utility.getExcelRowCount(INPUT_PATH, "AddEmp");
-		for (int i=0; i<x; i++)
+		for (int i=1; i<x; i++)
 		{
 			eiPage.addEmployee_Menu();
 			
 			
-			String fn = Utility.getExcelCellValue(INPUT_PATH, "AddEmp", i+1, 0);
-			String ln = Utility.getExcelCellValue(INPUT_PATH, "AddEmp", i+1, 1);
+			String fn = Utility.getExcelCellValue(INPUT_PATH, "AddEmp", i, 0);
+			String ln = Utility.getExcelCellValue(INPUT_PATH, "AddEmp", i, 1);
 			aePage.enterFirstName(fn);
 			aePage.enterLastName(ln);
 			aePage.clickSaveButton();
