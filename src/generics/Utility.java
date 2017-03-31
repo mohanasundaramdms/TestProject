@@ -48,8 +48,6 @@ public class Utility{
 		return simpleDate.format(new Date());
 	}
 	
-	//This is coment line
-
 	public static void getFileToUpload(String FilePath){
 		Robot robot;
 		try {

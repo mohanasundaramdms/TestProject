@@ -890,3 +890,80 @@ com.hrm.scripts.FirstDayOfWeekListBox 2017-03-06 18:27:15,718 com.hrm.base.BaseT
 com.hrm.scripts.FirstDayOfWeekListBox 2017-03-06 18:27:17,204 com.hrm.base.BaseTest.postCondition(BaseTest.java:121) Test is FAILED 
 com.hrm.scripts.FirstDayOfWeekListBox 2017-03-06 18:27:20,429 com.hrm.base.BaseTest.closeApplication(BaseTest.java:95) Closing Browser 
 com.hrm.scripts.FirstDayOfWeekListBox 2017-03-06 18:27:21,004 com.hrm.base.BaseTest.publishReport(BaseTest.java:64) Publishing ExtentReport:./report/06_03_2017_06_25_53.html 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:55:39,960 com.hrm.base.BaseTest.initReport(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:55:41,123 com.hrm.base.BaseTest.initGlobalVar(BaseTest.java:70) Initialize Global Variables 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:55:41,134 com.hrm.base.BaseTest.initApplication(BaseTest.java:81) Opening Browser:chrome 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:56:08,859 com.hrm.base.BaseTest.preCondition(BaseTest.java:104) Auto login 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:56:14,747 com.hrm.base.BaseTest.preCondition(BaseTest.java:108) Started executing test:testEmpAddDelete 
+com.hrm.pages.EmpInfoPage 2017-03-13 17:56:19,613 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:111) Selecting all Employees from checkbox 
+com.hrm.pages.EmpInfoPage 2017-03-13 17:56:19,720 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:113) All Employees are selected 
+com.hrm.pages.EmpInfoPage 2017-03-13 17:56:21,015 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:30) Verify Element is present 
+com.hrm.pages.EmpInfoPage 2017-03-13 17:56:21,208 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:33) Element found in the page 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:56:21,211 com.hrm.base.BaseTest.postCondition(BaseTest.java:114) Auto logout 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:56:22,831 com.hrm.base.BaseTest.postCondition(BaseTest.java:129) Test is PASSED 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:56:22,833 com.hrm.base.BaseTest.closeApplication(BaseTest.java:95) Closing Browser 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 17:56:23,124 com.hrm.base.BaseTest.publishReport(BaseTest.java:64) Publishing ExtentReport:./report/13_03_2017_05_55_40.html 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:02:54,086 com.hrm.base.BaseTest.initReport(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:02:54,438 com.hrm.base.BaseTest.initGlobalVar(BaseTest.java:70) Initialize Global Variables 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:02:54,454 com.hrm.base.BaseTest.initApplication(BaseTest.java:81) Opening Browser:chrome 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:03:06,820 com.hrm.base.BaseTest.preCondition(BaseTest.java:104) Auto login 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:03:11,064 com.hrm.base.BaseTest.preCondition(BaseTest.java:108) Started executing test:testEmpAddDelete 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:03:14,741 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:111) Selecting all Employees from checkbox 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:03:14,913 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:113) All Employees are selected 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:03:16,662 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:30) Verify Element is present 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:03:16,735 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:33) Element found in the page 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:03:16,738 com.hrm.base.BaseTest.postCondition(BaseTest.java:114) Auto logout 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:03:18,303 com.hrm.base.BaseTest.postCondition(BaseTest.java:129) Test is PASSED 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:03:18,306 com.hrm.base.BaseTest.closeApplication(BaseTest.java:95) Closing Browser 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:03:18,498 com.hrm.base.BaseTest.publishReport(BaseTest.java:64) Publishing ExtentReport:./report/13_03_2017_06_02_54.html 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:26,130 com.hrm.base.BaseTest.initReport(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:26,383 com.hrm.base.BaseTest.initGlobalVar(BaseTest.java:70) Initialize Global Variables 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:26,391 com.hrm.base.BaseTest.initApplication(BaseTest.java:81) Opening Browser:chrome 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:37,062 com.hrm.base.BaseTest.preCondition(BaseTest.java:104) Auto login 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:42,662 com.hrm.base.BaseTest.preCondition(BaseTest.java:108) Started executing test:testEmpAddDelete 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:07:46,793 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:111) Selecting all Employees from checkbox 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:07:46,934 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:113) All Employees are selected 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:07:48,634 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:30) Verify Element is present 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:07:48,733 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:33) Element found in the page 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:48,736 com.hrm.base.BaseTest.postCondition(BaseTest.java:114) Auto logout 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:50,302 com.hrm.base.BaseTest.postCondition(BaseTest.java:129) Test is PASSED 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:50,304 com.hrm.base.BaseTest.closeApplication(BaseTest.java:95) Closing Browser 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:07:50,496 com.hrm.base.BaseTest.publishReport(BaseTest.java:64) Publishing ExtentReport:./report/13_03_2017_06_07_26.html 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:09:58,564 com.hrm.base.BaseTest.initReport(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:09:58,821 com.hrm.base.BaseTest.initGlobalVar(BaseTest.java:70) Initialize Global Variables 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:09:58,829 com.hrm.base.BaseTest.initApplication(BaseTest.java:81) Opening Browser:chrome 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:10:10,820 com.hrm.base.BaseTest.preCondition(BaseTest.java:104) Auto login 
+com.hrm.scripts.CreateDeleteMultipleEmployee 2017-03-13 18:10:15,417 com.hrm.base.BaseTest.preCondition(BaseTest.java:108) Started executing test:testEmpAddDelete 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:11:26,189 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:111) Selecting all Employees from checkbox 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:11:26,326 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:113) All Employees are selected 
+com.hrm.pages.EmpInfoPage 2017-03-13 18:11:29,997 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:30) Verify Element is present 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:56:58,369 com.hrm.base.BaseTest.initReport(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:57:06,240 com.hrm.base.BaseTest.initGlobalVar(BaseTest.java:70) Initialize Global Variables 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:57:06,252 com.hrm.base.BaseTest.initApplication(BaseTest.java:81) Opening Browser:chrome 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:58:03,214 com.hrm.base.BaseTest.preCondition(BaseTest.java:104) Auto login 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:58:18,385 com.hrm.base.BaseTest.preCondition(BaseTest.java:108) Started executing test:employeeTerminationList 
+com.hrm.pages.EmpInfoPage 2017-03-30 11:58:18,610 com.hrm.pages.EmpInfoPage.verifyEmployeeTerminationIsSorted(EmpInfoPage.java:74) Verify that the Employee Termination list is sorted 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:58:21,861 com.hrm.base.BaseTest.postCondition(BaseTest.java:114) Auto logout 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:58:22,533 com.hrm.base.BaseTest.postCondition(BaseTest.java:121) Test is FAILED 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:58:25,137 com.hrm.base.BaseTest.closeApplication(BaseTest.java:95) Closing Browser 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:58:25,294 com.hrm.base.BaseTest.initApplication(BaseTest.java:81) Opening Browser:chrome 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:58:35,946 com.hrm.base.BaseTest.preCondition(BaseTest.java:104) Auto login 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:58:40,964 com.hrm.base.BaseTest.preCondition(BaseTest.java:108) Started executing test:testEmpAddDelete 
+com.hrm.pages.EmpInfoPage 2017-03-30 11:59:05,418 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:111) Selecting all Employees from checkbox 
+com.hrm.pages.EmpInfoPage 2017-03-30 11:59:05,645 com.hrm.pages.EmpInfoPage.selectAllCheckBox(EmpInfoPage.java:113) All Employees are selected 
+com.hrm.pages.EmpInfoPage 2017-03-30 11:59:08,693 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:30) Verify Element is present 
+com.hrm.pages.EmpInfoPage 2017-03-30 11:59:08,780 com.hrm.base.BasePage.verifyElementIsPresent(BasePage.java:33) Element found in the page 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:59:08,783 com.hrm.base.BaseTest.postCondition(BaseTest.java:114) Auto logout 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:59:09,713 com.hrm.base.BaseTest.postCondition(BaseTest.java:129) Test is PASSED 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:59:09,713 com.hrm.base.BaseTest.closeApplication(BaseTest.java:95) Closing Browser 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:59:09,914 com.hrm.base.BaseTest.initApplication(BaseTest.java:81) Opening Browser:chrome 
+com.hrm.scripts.SearchButtonVisibleTest 2017-03-30 11:59:19,456 com.hrm.base.BaseTest.preCondition(BaseTest.java:104) Auto login 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:52:23,751 com.hrm.base.BaseTest.initReport(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:52:32,906 com.hrm.base.BaseTest.initGlobalVar(BaseTest.java:70) Initialize Global Variables 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:52:32,963 com.hrm.base.BaseTest.initApplication(BaseTest.java:81) Opening Browser:chrome 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:53:52,175 com.hrm.base.BaseTest.preCondition(BaseTest.java:104) Auto login 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:54:02,778 com.hrm.base.BaseTest.preCondition(BaseTest.java:108) Started executing test:languageAndFontHelpTest 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:54:27,412 com.hrm.base.BaseTest.postCondition(BaseTest.java:114) Auto logout 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:54:29,374 com.hrm.base.BaseTest.postCondition(BaseTest.java:129) Test is PASSED 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:54:29,376 com.hrm.base.BaseTest.closeApplication(BaseTest.java:95) Closing Browser 
+com.hrm.scripts.LanguageAndFontHelpTest 2017-03-30 12:54:31,998 com.hrm.base.BaseTest.publishReport(BaseTest.java:64) Publishing ExtentReport:./report/30_03_2017_12_52_24.html 
